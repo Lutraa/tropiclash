@@ -1,19 +1,119 @@
  .u-section-1 {
   background-image: none;
+  min-height: 100vh;
 }
 
-.u-section-1 .u-sheet-1 {
-  min-height: 709px;
+.u-section-1 .u-image-1 {
+  height: 388px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.u-section-1 .u-btn-1 {
+  margin: -273px auto 0;
+  padding: 0;
+}
+
+.u-section-1 .u-icon-1 {
+  font-size: 6.25em;
+}
+
+.u-section-1 .u-btn-2 {
+  margin: -160px auto 0 calc(((100% - 1140px) / 2) + 305px);
+  padding: 0;
+}
+
+.u-section-1 .u-icon-2 {
+  font-size: 6.25em;
+}
+
+.u-section-1 .u-icon-3 {
+  font-size: 6.25em;
+  height: 99px;
+  width: 99px;
+  margin: -129px calc(((100% - 1140px) / 2) + 306px) 0 auto;
+  padding: 0;
 }
 
 .u-section-1 .u-text-1 {
   font-family: ABeeZee;
   font-weight: 700;
-  margin: 96px 10px 60px;
+  margin: 177px 134px 60px;
 }
 
 @media (max-width: 1199px) {
+  .u-section-1 .u-btn-1 {
+    border-style: solid;
+    width: 44px;
+    margin-top: -249px;
+  }
+
+  .u-section-1 .u-btn-2 {
+    border-style: solid;
+    margin-top: -54px;
+    margin-left: calc(((100% - 940px) / 2) + 105px);
+  }
+
+  .u-section-1 .u-icon-3 {
+    font-size: 6.25rem;
+    margin-top: -89px;
+    margin-right: calc(((100% - 940px) / 2) + 306px);
+  }
+
   .u-section-1 .u-text-1 {
-    width: auto;
+    margin-top: 172px;
+    margin-left: 34px;
+    margin-right: 34px;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-1 .u-btn-2 {
+    margin-left: calc(((100% - 720px) / 2));
+  }
+
+  .u-section-1 .u-icon-3 {
+    margin-right: calc(((100% - 720px) / 2) + 234px);
+  }
+
+  .u-section-1 .u-text-1 {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-1 .u-btn-1 {
+    margin-top: -263px;
+  }
+
+  .u-section-1 .u-btn-2 {
+    margin-left: calc(((100% - 540px) / 2));
+  }
+
+  .u-section-1 .u-icon-3 {
+    margin-right: calc(((100% - 540px) / 2) + 176px);
+  }
+
+  .u-section-1 .u-text-1 {
+    margin-top: 186px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-1 .u-btn-1 {
+    margin-top: -276px;
+  }
+
+  .u-section-1 .u-btn-2 {
+    margin-left: calc(((100% - 340px) / 2));
+  }
+
+  .u-section-1 .u-icon-3 {
+    margin-right: calc(((100% - 340px) / 2) + 111px);
+  }
+
+  .u-section-1 .u-text-1 {
+    margin-top: 199px;
   }
 }
