@@ -10,6 +10,7 @@
 .u-section-1 .u-image-1 {
   min-height: 400px;
   background-image: url("images/image.png");
+  background-position: 50% 50%;
 }
 
 .u-section-1 .u-container-layout-1 {
@@ -40,7 +41,6 @@
 
   .u-section-1 .u-image-1 {
     min-height: 330px;
-    background-position: 50% 50%;
   }
 
   .u-section-1 .u-layout-cell-2 {
@@ -94,14 +94,7 @@
 }
 
 .u-section-2 .u-text-1 {
-  margin: 25px auto 0;
-}
-
-.u-section-2 .u-btn-1 {
-  background-image: none;
-  text-transform: uppercase;
-  font-weight: 700;
-  margin: 40px auto 0;
+  margin: 25px auto 60px;
 }
 
 @media (max-width: 1199px) {
