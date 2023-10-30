@@ -1,2 +1,2 @@
-# tcs
-Official Tropical Championships Website Code
+# Tropiclash
+Official Tropiclash Website Code
